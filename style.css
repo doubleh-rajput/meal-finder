@@ -1,0 +1,61 @@
+@font-face {
+	font-family: "ProximaNova";
+	src: url("./fonts/ProximaNova-Reg-webfont.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "ProximaNova-Light";
+	src: url("./fonts/ProximaNova-Light-webfont.woff2") format("woff2");
+}
+
+* {
+	font-family: ProximaNova !important;
+}
+
+.app-container {
+	padding: 30px 15%;
+}
+
+.uk-search-default {
+	width: 100%;
+}
+
+h1,
+.uk-h1,
+h2,
+.uk-h2,
+h3,
+.uk-h3,
+h4,
+.uk-h4,
+h5,
+.uk-h5,
+h6,
+.uk-h6,
+.uk-heading-small,
+.uk-heading-medium,
+.uk-heading-large,
+.uk-heading-xlarge,
+.uk-heading-2xlarge {
+	margin: 0 0 20px 0;
+	font-weight: 100;
+	text-transform: none;
+	font-family: ProximaNova-Light !important;
+}
+
+#loader {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+	background-color: #d4d4d4;
+	opacity: 0.7;
+	visibility: hidden;
+}
+
+.meal-item {
+	cursor: pointer;
+}
